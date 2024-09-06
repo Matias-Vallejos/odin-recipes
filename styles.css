@@ -1,3 +1,33 @@
 *{
     font-family:'Courier New', Courier, monospace;
 }
+h1{
+    text-align: center;
+    font-size:60px;
+    color:darkmagenta;
+    text-shadow: 2px 2px red;
+}
+body{
+    background-image: linear-gradient(to right, rgb(255, 0, 0, 0.2),rgb(255, 165, 0, 0.4),rgb(255, 255, 0, 0.6),rgb(0, 128, 0, 0.7),rgb(0, 0, 255, 0.8),rgb(75, 0, 130, 0.9),rgb(238, 130, 238, 1));
+}
+.recipes{
+    width:800px;
+    border:5px solid;
+    border-radius:50px;
+    padding:15px;
+    margin:auto;
+    background-color:#fad2e0;
+    position:relative
+}
+img{
+    display:block;
+    margin:auto;
+    width:500px;
+    height:auto;
+}
+h5{
+    text-align: right;
+}
+h4{
+    text-align: center;
+}
