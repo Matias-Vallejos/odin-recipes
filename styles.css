@@ -1,3 +1,5 @@
+/* General */
+
 *{
     font-family:'Courier New', Courier, monospace;
 }
@@ -10,6 +12,9 @@ h1{
 body{
     background-image: linear-gradient(to right, rgb(255, 0, 0, 0.2),rgb(255, 165, 0, 0.4),rgb(255, 255, 0, 0.6),rgb(0, 128, 0, 0.7),rgb(0, 0, 255, 0.8),rgb(75, 0, 130, 0.9),rgb(238, 130, 238, 1));
 }
+
+/* Individual recipes formatting */
+
 .recipes{
     width:800px;
     border:5px solid;
@@ -31,6 +36,27 @@ h5{
 h4{
     text-align: center;
 }
+
+/* Individual recipes header buttons */
+
+.ingre, .steps{
+    position:fixed;
+    background-color:lightgreen;
+    border:solid black;
+    text-decoration: none;
+}
+.ingre:hover, .steps:hover{
+    background-color:darkgreen
+}
+.ingre{
+    right:10px;
+}
+.steps{
+    left: 10px;
+}
+
+/* Index imgs and overlay */
+
 .topi{
     position:absolute;
     width:220px;
@@ -81,19 +107,4 @@ h4{
     position:absolute;
     top:90px;
     left: 35px;
-}
-.ingre, .steps{
-    position:fixed;
-    background-color:lightgreen;
-    border:solid black;
-    text-decoration: none;
-}
-.ingre:hover, .steps:hover{
-    background-color:darkgreen
-}
-.ingre{
-    right:10px;
-}
-.steps{
-    left: 10px;
 }
