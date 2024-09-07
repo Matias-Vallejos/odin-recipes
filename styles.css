@@ -19,7 +19,7 @@ body{
     background-color:#fad2e0;
     position:relative
 }
-img{
+.rcpimg{
     display:block;
     margin:auto;
     width:500px;
@@ -30,4 +30,21 @@ h5{
 }
 h4{
     text-align: center;
+}
+.topi{
+    position:absolute;
+    width:220px;
+    height:220px;
+}
+.boti{
+    top:400px;
+    position:absolute;
+    width:220px;
+    height:220px;
+}
+.righti{
+    right:270px;
+}
+.lefti{
+    left:270px;
 }
