@@ -81,3 +81,18 @@ h4{
     top:90px;
     left: 35px;
 }
+.ingre, .steps{
+    position:fixed;
+    background-color:lightgreen;
+    border:solid black;
+    text-decoration: none;
+}
+.ingre:hover, .steps:hover{
+    background-color:darkgreen
+}
+.ingre{
+    right:10px;
+}
+.steps{
+    left: 10px;
+}
