@@ -33,6 +33,9 @@ hr{
     border-top: dotted 8px darkmagenta;
     border-bottom:hidden;
 }
+.recipes ol{
+    list-style-position: inside;
+}
 
 h4{
     text-align: center;
@@ -54,6 +57,7 @@ h4{
     border:solid black;
     text-decoration: none;
     padding:5px;
+    font-size: 18px;
 }
 .recipes_nav a:hover{
     background-color:darkgreen
