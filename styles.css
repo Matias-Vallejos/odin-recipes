@@ -29,11 +29,16 @@ body{
     width:500px;
     height:auto;
 }
-h5{
-    text-align: right;
+.botlinks{
+    position:relative;
 }
 h4{
     text-align: center;
+}
+#backtop{
+    position:absolute;
+    right:0px;
+    top:1.5px;
 }
 
 /* Individual recipes header buttons */
