@@ -22,7 +22,6 @@ body{
     padding:15px;
     margin:auto;
     background-color:#fad2e0;
-    position:relative
 }
 .rcpimg{
     display:block;
@@ -44,6 +43,7 @@ h4{
     background-color:lightgreen;
     border:solid black;
     text-decoration: none;
+    padding:5px;
 }
 .ingre:hover, .steps:hover{
     background-color:darkgreen
