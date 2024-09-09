@@ -21,7 +21,7 @@ body{
     border-radius:50px;
     padding:15px;
     margin:auto;
-    background-color:#fad2e0;
+    background-color:lightpink;
 }
 .rcpimg{
     display:block;
@@ -29,13 +29,18 @@ body{
     width:500px;
     height:auto;
 }
-.botlinks{
-    position:relative;
+hr{
+    border-top: dotted 8px darkmagenta;
+    border-bottom:hidden;
 }
+
 h4{
     text-align: center;
 }
-#backtop{
+.botlinks{
+    position:relative;
+}
+.botlinks h5 a{
     position:absolute;
     right:0px;
     top:1.5px;
@@ -43,24 +48,25 @@ h4{
 
 /* Individual recipes header buttons */
 
-.ingre, .steps{
+.recipes_nav a{
     position:fixed;
     background-color:lightgreen;
     border:solid black;
     text-decoration: none;
     padding:5px;
 }
-.ingre:hover, .steps:hover{
+.recipes_nav a:hover{
     background-color:darkgreen
 }
-.ingre{
+.ing{
     right:10px;
 }
-.steps{
+.ste{
     left: 10px;
 }
 
-/* Index imgs and ovgit erlay */
+/* Index imgs and overlay */
+
 .recipebox{
     position:relative;
     margin:auto;
