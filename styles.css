@@ -60,17 +60,19 @@ h4{
     left: 10px;
 }
 
-/* Index imgs and overlay */
+/* Index imgs and ovgit erlay */
 .recipebox{
     position:relative;
     margin:auto;
     width: 700px;
-    height:550px;
+    height:600px;
 }
-.top, .bot {
+.recipebox img, .overlay{
+    border:10px solid darkmagenta;
+    border-radius:12px;
     position:absolute;
-    width:250px;
-    height:250px;
+    width:240px;
+    height:240px;
 }
 .top{
     top:0px;
@@ -93,11 +95,12 @@ h4{
     background-color: rgb(187, 187, 187);
 }
 .txt{
-    height:250px;
-    padding-top:110px;
+    height:240px;
+    padding-top:105px;
     color:black;
     font-weight:bold;
     font-size:40px;
     text-align: center;
 }
+
 
