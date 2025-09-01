@@ -47,7 +47,7 @@ hr{
 footer{
     position:relative;
 }
-footer .backtop{
+footer p .backtop{
     position:absolute;
     right:0px;
     top:1.5px;
