@@ -29,6 +29,10 @@ body{
     width:500px;
     height:auto;
 }
+.desc{
+    font-size: 1.17em;
+    font-weight: bold;
+}
 hr{
     border-top: dotted 8px darkmagenta;
     border-bottom:hidden;
@@ -37,13 +41,13 @@ hr{
     list-style-position: inside;
 }
 
-h4{
+.home{
     text-align: center;
 }
-.botlinks{
+footer{
     position:relative;
 }
-.botlinks h5 a{
+footer .backtop{
     position:absolute;
     right:0px;
     top:1.5px;
